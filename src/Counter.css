@@ -1,0 +1,53 @@
+
+.maincontainer{
+    width: 350px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 1px rgb(217, 214, 214);
+    margin: 2rem;
+    padding: 0.5rem;
+}
+.closeIcon{
+    width: 100%;
+    position: relative;
+    left: 10rem;
+}
+.count{
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.addcomponent{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.buttons{
+    width: 30%;
+    padding: 0.3rem;
+    color: #fff;
+    border-radius: 3px;
+}
+.add{
+    background-color: hsl(0, 100%, 67%);
+    border: 1px solid hsl(0, 100%, 67%);
+}
+.subtract{
+    background-color: hsl(39, 100%, 56%);
+    border: 1px solid hsl(39, 100%, 56%);
+}
+.neutral{
+    background-color: hsl(166, 100%, 37%);
+    border: 1px solid hsl(166, 100%, 37%);
+}
+.btn{
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+}
